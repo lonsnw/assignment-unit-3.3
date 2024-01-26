@@ -19,7 +19,7 @@
     <!-- create an ordered list with any questions you have on this week's material -->
     <div id="questions">
       <ol>
-        <li>I tried number 6 as an if...else as well and it didn't work.  It just returns all non-negative numbers for the zeroes array.  Can you explain to me why, please?
+        <li>I tried number 6 as an if...else after I did the if/if/if version and it didn't work.  It just returns all positive numbers for the zeroes array.  Can you explain to me why, please?
           <br>Here's what I did:
           <blockquote style="font-family: monospace">for(let supplyChange of supplyChanges){
           <br>   if(supplyChange > 0){
@@ -38,8 +38,7 @@
           <br>My code:
           <blockquote style="font-family: monospace">while(parts>7){
           <br>parts = parts-=7;
-          <br>boxesFilled = boxesFilled += 1;
-          <br>//this works with += 1 but not with ++, not sure why
+          <br>boxesFilled = boxesFilled++;
           <br>}
           </blockquote>
         </li>
