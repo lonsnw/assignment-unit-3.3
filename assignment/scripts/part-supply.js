@@ -98,7 +98,8 @@ let x = supplyChanges.length-1;
 //that didn't exist in the array 
 //(because it was 1 higher than the last number in the array)
 console.log(`supplyChanges length:`, supplyChanges.length);
-
+//also needed a little help with this one because while loops don't yet make sense to me
+//used this: https://www.freecodecamp.org/news/how-to-loop-through-an-array-in-javascript-js-iterate-tutorial/
 while(x>=0){
   totalParts = totalParts + supplyChanges[x];
   x--;
