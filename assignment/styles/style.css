@@ -34,6 +34,12 @@ pre {
     font-size: 1.2em;
 }
 
+#questions {
+    background-color: grey;
+    margin: 0px auto;
+    padding: 10px;
+}
+
 #container {
     max-width: 1000px;
     margin: 0 auto;

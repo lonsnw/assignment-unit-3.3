@@ -17,6 +17,35 @@
       <h1>Unit 3, Part 3</h1>
     </header>
     <!-- create an ordered list with any questions you have on this week's material -->
+    <div id="questions">
+      <ol>
+        <li>I tried number 6 as an if...else as well and it didn't work.  It just returns all non-negative numbers for the zeroes array.  Can you explain to me why, please?
+          <br>Here's what I did:
+          <blockquote style="font-family: monospace">for(let supplyChange of supplyChanges){
+          <br>   if(supplyChange > 0){
+          <br>      positives.push(supplyChange)
+          <br>   }
+          <br>   if(supplyChange < 0){
+          <br>      negatives.push(supplyChange)
+          <br>   }
+          <br>   else{
+          <br>      zeroes.push(supplyChange)
+          <br>   }
+          <br>}
+          </blockquote>
+        </li>
+        <li>For number 9, I tried to iterate with ++ but it only worked if I used += 1; do you know why?
+          <br>My code:
+          <blockquote style="font-family: monospace">while(parts>7){
+          <br>parts = parts-=7;
+          <br>boxesFilled = boxesFilled += 1;
+          <br>//this works with += 1 but not with ++, not sure why
+          <br>}
+          </blockquote>
+        </li>
+        <li>I'm also not sure if there's a better way for me to paste snippets of code in here, esp re: indentation.  Any tips?</li>
+      </ol>
+    </div>
     <div id="container">
       <div class="note">
         <div>
